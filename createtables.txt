@@ -1,0 +1,2 @@
+CREATE TABLE students.students (sid INT PRIMARY KEY, name VARCHAR (200), course VARCHAR (200), skill VARCHAR (200), size INT, notes TEXT);
+CREATE TABLE students.students (sid INT PRIMARY KEY, name VARCHAR (200), course VARCHAR (200), skill VARCHAR (200), size INT, notes TEXT, group_name INT);
